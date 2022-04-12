@@ -1,0 +1,50 @@
+*{
+    margin-left:0;
+    margin-right: 0;
+}
+
+body {
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    padding: .5em;
+}
+
+nav {
+    text-align: right;
+    color: #e2531c;
+  
+}
+
+.benifits-of-honey {
+    background-color: #e6d5b8;
+}
+
+.head-shots {
+    border-radius: 50%;
+}
+
+.brown-section {
+    text-align: left;
+    padding: 2em 4em;
+    background-color: #4a3933;
+    color: white;
+}
+
+.yellow-text {
+    color:#f0a500 ;
+}
+
+.bottom-brown-section {
+    
+}
+
+.btn {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 1em;
+
+}
