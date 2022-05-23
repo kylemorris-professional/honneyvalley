@@ -1,10 +1,25 @@
 *{
-    margin-left:0;
-    margin-right: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 300;
     text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: Fira Sans;
+    font-weight: 700;
+}
+
+a {
+    font-family: Fira Sans;
+    font-size: 16px;
+
 }
 
 nav li {
@@ -15,12 +30,33 @@ nav li {
 nav {
     text-align: right;
     color: #e2531c;
+    border: 1px solid red;
+    display:flex
   
 }
 
-.benifits-of-honey {
-    background-color: #e6d5b8;
+.logo {
+    width: 48px;
+    height: 56px;
 }
+
+.what-we-offer-grid-items{
+    
+    margin: 2rem;
+    background-color: #f8f5f1;
+}
+
+#benifits-of-honey {
+    background-color: #e6d5b8;
+    text-align: left;
+
+}
+
+.benifit-of-honey-grid-item {
+    margin: 2rem;
+   
+}
+
 
 .head-shots {
     border-radius: 50%;
@@ -42,9 +78,53 @@ nav {
 }
 
 .btn {
-    background-color: red;
+    background-color: #e45826;
     border: none;
     color: white;
     padding: 1em;
 
+}
+
+.what-we-offer-btn {
+    width: 80%;
+}
+
+
+.four-column-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.three-column-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.top-section-of-testomonial {
+    text-align: left;
+}
+
+
+.testomonial-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.grid-item {
+    background-color: #f8f5f1;
+    margin:  2rem;
+    padding: 1rem;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: left;
+    
+}
+
+.footer-text {
+    color: #e45826;
+    list-style-type: none;
 }
