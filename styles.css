@@ -30,7 +30,6 @@ nav li {
 nav {
     text-align: right;
     color: #e2531c;
-    border: 1px solid red;
     display:flex
   
 }
@@ -38,6 +37,18 @@ nav {
 .logo {
     width: 48px;
     height: 56px;
+    margin-right: 57em;
+}
+
+.first-image {
+    float: right;
+    height: 225px;
+    /* margin-left: 40em; */
+}
+
+.second-image {
+    height: 100%;
+    width: 100%;
 }
 
 .what-we-offer-grid-items{
@@ -63,10 +74,13 @@ nav {
 }
 
 .brown-section {
+    width: 90%;
+    
     text-align: left;
     padding: 2em 4em;
     background-color: #4a3933;
     color: white;
+
 }
 
 .yellow-text {
